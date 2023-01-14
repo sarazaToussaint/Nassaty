@@ -19,9 +19,25 @@ const Home = () => (
       </ul>
     </nav>
 
-    <di className="home-body">
-      <h1>{data.data.projectName}</h1>
-    </di>
+    <section className="home-body">
+      <div className="side-left">
+        <div className="left-line" />
+        <div>
+          <img className={styles.left} src={data.data.sideImg} alt={data.data.projectName} />
+        </div>
+        <div className="left-line" />
+      </div>
+      <div className="name-body">
+        <h1>{data.data.projectName}</h1>
+      </div>
+      <div className="side-right">
+        <div className="right-line" />
+        <div>
+          <img className={styles.right} src={data.data.sideImg} alt={data.data.projectName} />
+        </div>
+        <div className="right-line" />
+      </div>
+    </section>
   </div>
 );
 
