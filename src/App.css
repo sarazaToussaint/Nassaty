@@ -23,11 +23,53 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
   color: #fff;
 }
 
 nav ul {
   display: flex;
   gap: 20px;
+}
+
+.home-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 45px 0 45px;
+}
+
+.left-line {
+  width: 100px;
+  border: 1px solid #ffecd1;
+  transform: rotate(-90deg);
+}
+
+.side-left {
+  display: grid;
+  text-align: center;
+  gap: 55px;
+  margin-left: -25px;
+}
+
+.right-line {
+  width: 100px;
+  border: 1px solid #ffecd1;
+  transform: rotate(-90deg);
+}
+
+.side-right {
+  display: grid;
+  text-align: center;
+  gap: 55px;
+  margin-right: -27px;
+}
+
+.name-body {
+  font-size: 100px;
+  font-weight: 600;
+  color: #ffecd1;
+  text-shadow: 8px 7px 20px rgba(0, 0, 0, 0.25);
 }
