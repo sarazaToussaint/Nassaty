@@ -38,6 +38,17 @@ const Home = () => (
         <div className="right-line" />
       </div>
     </section>
+    <footer>
+      <div className="social-media">
+        <i>f</i>
+        <i>t</i>
+        <i>IG</i>
+      </div>
+      <div className="scroll">
+        <span>Scroll</span>
+        <div className="foot-line" />
+      </div>
+    </footer>
   </div>
 );
 
