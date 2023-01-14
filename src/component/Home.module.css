@@ -1,11 +1,17 @@
 .homeContainer {
-  left: 0;
-  top: 0;
-  bottom: 0;
+  position: relative;
 }
 
 .logo {
-  width: 40px;
-  height: 40px;
+  width: 41.42px;
+  height: 82.33px;
+  top: 53px;
+  left: 73.58px;
   color: #fff;
+}
+
+.left,
+.right {
+  width: 46px;
+  height: 142.07px;
 }
