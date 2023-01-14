@@ -7,10 +7,10 @@ const Project = () => (
       <h1>Logo</h1>
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/">HOME</Link>
         </li>
         <li>
-          <Link to="/Contact">Contact</Link>
+          <Link to="/Contact">CONTACT</Link>
         </li>
       </ul>
     </nav>
