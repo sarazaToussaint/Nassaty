@@ -1,0 +1,9 @@
+{
+  "data": {
+    "projectName": "NASSATY",
+    "logo": "./assets/logo.png",
+    "background": "./assets/background.png",
+    "sideImg": "./assets/next.png",
+    "cercleImg": "./assets/cercle.png"
+  }
+}
