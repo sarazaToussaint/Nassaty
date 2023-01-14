@@ -45,7 +45,7 @@ const Home = () => (
         <i>IG</i>
       </div>
       <div className="scroll">
-        <span>Scroll</span>
+        <p>Scroll</p>
         <div className="foot-line" />
       </div>
     </footer>
