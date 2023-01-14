@@ -7,10 +7,10 @@ const Contact = () => (
       <h1>Logo</h1>
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/">HOME</Link>
         </li>
         <li>
-          <Link to="/Project">Project</Link>
+          <Link to="/Project">PROJECTS</Link>
         </li>
       </ul>
     </nav>
