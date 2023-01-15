@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: rgba(0, 21, 36, 0.8);
+  background: radial-gradient(103.91% 166.99% at -5.14% -15.43%, #15616d 0%, #001524 100%);
   color: #fff;
 }
 
@@ -77,24 +77,27 @@ nav ul {
 footer {
   display: flex;
   justify-content: space-between;
+  margin-top: 60px;
 }
 
 .foot-line {
-  width: 34px;
+  width: 30px;
   border: 1px solid #ffecd1;
   transform: rotate(90deg);
+  margin-left: 17px;
 }
 
-.scroll p {
-  /* display: grid;
-  text-align: center;
-  gap: 55px; */
+.scroll .text {
   font-size: 16px;
   letter-spacing: 0.2em;
   transform: rotate(90deg);
+  margin-right: 35px;
 }
 
 .scroll {
+  display: grid;
   text-align: center;
-  gap: 30px;
+  gap: 35px;
+
+  /* margin-right: 27px; */
 }
