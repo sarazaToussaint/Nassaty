@@ -83,6 +83,7 @@ footer {
 .social-media {
   display: grid;
   margin-left: 65px;
+  gap: 10px;
 }
 
 .foot-line {
