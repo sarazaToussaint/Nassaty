@@ -80,6 +80,11 @@ footer {
   margin-top: 60px;
 }
 
+.social-media {
+  display: grid;
+  margin-left: 65px;
+}
+
 .foot-line {
   width: 30px;
   border: 1px solid #ffecd1;
@@ -95,7 +100,8 @@ footer {
 }
 
 .scroll {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   text-align: center;
-  gap: 35px;
+  gap: 38px;
 }
