@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink as Link } from 'react-router-dom';
+import { GrFacebookOption, GrTwitter, RxInstagramLogo } from 'react-icons/fa';
 import data from './database/data.json';
 import styles from './Home.module.css';
 
@@ -40,9 +41,9 @@ const Home = () => (
     </section>
     <footer>
       <div className="social-media">
-        <i>TfiFacebook</i>
-        <i>ImTwitter</i>
-        <i>RxInstagramLogo</i>
+        <i><GrFacebookOption /></i>
+        <i><GrTwitter /></i>
+        <i><RxInstagramLogo /></i>
       </div>
       <div className="scroll">
         <div className="text">Scroll</div>
