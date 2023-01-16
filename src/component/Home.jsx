@@ -5,7 +5,14 @@ import data from './database/data.json';
 import styles from './Home.module.css';
 
 const Home = () => (
-  <div className={styles.homeContainer}>
+  <div
+    style={{
+      backgroundImage: `url(${`${process.env.PUBLIC_URL}/assets/background.png`})`,
+      backgroundRepeat: 'no-repeat',
+      opacity: '8%',
+    }}
+    className={styles.homeContainer}
+  >
     <nav>
       <h1>
         <img className={styles.logo} src={data.data.logo} alt={data.data.projectName} />
