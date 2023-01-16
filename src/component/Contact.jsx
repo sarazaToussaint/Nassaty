@@ -14,7 +14,7 @@ const Contact = () => (
           <Link to="/">HOME</Link>
         </li>
         <li>
-          <Link to="/Project">PROJECTS</Link>
+          <Link to="/Project">PROJECT</Link>
         </li>
       </ul>
     </nav>
