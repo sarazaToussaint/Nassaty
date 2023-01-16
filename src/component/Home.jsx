@@ -9,6 +9,7 @@ const Home = () => (
     style={{
       backgroundImage: `url(${`${process.env.PUBLIC_URL}/assets/background.png`})`,
       backgroundRepeat: 'no-repeat',
+      backgroundSize: 'cover',
       opacity: '8%',
     }}
     className={styles.homeContainer}
