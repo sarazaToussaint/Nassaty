@@ -20,34 +20,34 @@ const Home = () => (
       </ul>
     </nav>
 
-    <section className="home-body">
-      <div className="side-left">
-        <div className="left-line" />
+    <section className={styles.homeBody}>
+      <div className={styles.sideLeft}>
+        <div className={styles.leftLine} />
         <div>
           <img className={styles.left} src={data.data.sideImg} alt={data.data.projectName} />
         </div>
-        <div className="left-line" />
+        <div className={styles.leftLine} />
       </div>
-      <div className="name-body">
+      <div className={styles.nameBody}>
         <h1>{data.data.projectName}</h1>
       </div>
-      <div className="side-right">
-        <div className="right-line" />
+      <div className={styles.sideRight}>
+        <div className={styles.rightLine} />
         <div>
           <img className={styles.right} src={data.data.sideImg} alt={data.data.projectName} />
         </div>
-        <div className="right-line" />
+        <div className={styles.rightLine} />
       </div>
     </section>
     <footer>
-      <div className="social-media">
+      <div className={styles.socialMedia}>
         <i><FaFacebookF /></i>
         <i><FaTwitter /></i>
         <i><FaInstagram /></i>
       </div>
-      <div className="scroll">
-        <div className="text">Scroll</div>
-        <div className="foot-line" />
+      <div className={styles.scroll}>
+        <div className={styles.text}>Scroll</div>
+        <div className={styles.footLine} />
       </div>
     </footer>
   </div>
