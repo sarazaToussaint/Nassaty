@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink as Link } from 'react-router-dom';
+import { FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa';
 import data from './database/data.json';
 import styles from './Home.module.css';
 import classes from './Contact.module.css';
@@ -53,6 +54,17 @@ const Contact = () => (
         </form>
       </div>
     </div>
+    <footer>
+      <div className={styles.socialMedia}>
+        <i><FaFacebookF /></i>
+        <i><FaTwitter /></i>
+        <i><FaInstagram /></i>
+      </div>
+      <div className={styles.scroll}>
+        <div className={styles.text}>Scroll</div>
+        <div className={styles.footLine} />
+      </div>
+    </footer>
   </div>
 );
 
