@@ -43,13 +43,9 @@ const Contact = () => (
         <h2>CONTACT FORM</h2>
         <form className={classes.contForm}>
           <input type="text" id="" name="nameOfUser" placeholder="Your name" />
-          <br />
           <input type="text" id="" name="phoneUser" placeholder="Your phone" />
-          <br />
           <input type="text" id="" name="emailUser" placeholder="Your email" />
-          <br />
           <textarea id="nassatyContact" placeholder="Your message" name="msgUser" rows="4" cols="22" />
-          <br />
           <button type="submit">Send Message</button>
         </form>
       </div>
