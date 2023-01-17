@@ -1,0 +1,11 @@
+.contactContainer {
+  display: flex;
+}
+
+.contactText {
+  width: 43.75rem;
+}
+
+.contactForm {
+  width: 36rem;
+}
