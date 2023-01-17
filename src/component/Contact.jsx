@@ -2,6 +2,7 @@ import React from 'react';
 import { NavLink as Link } from 'react-router-dom';
 import data from './database/data.json';
 import styles from './Home.module.css';
+import classes from './Contact.module.css';
 
 const Contact = () => (
   <div>
@@ -19,8 +20,8 @@ const Contact = () => (
       </ul>
     </nav>
 
-    <di className="home-body contact-container">
-      <div className="contact-text">
+    <div className={classes.contactContainer}>
+      <div className={classes.contactText}>
         <h2>CONTACT</h2>
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -37,20 +38,21 @@ const Contact = () => (
           <span>prinheir9@gmail.com</span>
         </div>
       </div>
-      <div className="contact-form">
+      <div className={classes.contactForm}>
         <h2>CONTACT FORM</h2>
-        <form className="cont-form">
+        <form className={classes.contForm}>
           <input type="text" id="" name="nameOfUser" placeholder="Your name" />
           <br />
-          <input type="text" id="" name="aboutUser" placeholder="Your phone" />
+          <input type="text" id="" name="phoneUser" placeholder="Your phone" />
           <br />
-          <input type="text" id="" name="aboutUser" placeholder="Your email" />
+          <input type="text" id="" name="emailUser" placeholder="Your email" />
           <br />
-          <textarea id="nassatyContact" placeholder="Your message" name="nassatyform" rows="4" cols="50" />
-          <button type="submit">Save</button>
+          <textarea id="nassatyContact" placeholder="Your message" name="msgUser" rows="4" cols="22" />
+          <br />
+          <button type="submit">Send Message</button>
         </form>
       </div>
-    </di>
+    </div>
   </div>
 );
 
