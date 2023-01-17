@@ -24,13 +24,13 @@ const Contact = () => (
     <div className={classes.contactContainer}>
       <div className={classes.contactText}>
         <h2>CONTACT</h2>
-        <p>
+        <p className={classes.paragrap}>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit.
           Maiores voluptatibus excepturi eaque doloribus dignissimos
           doloremque, odit impedit aut laudantium reiciendis veritatis
           sit incidunt. Perspiciatis culpa cumque, ratione ipsum eaque illo!
         </p>
-        <div>
+        <div className={classes.address}>
           <h3>Address</h3>
           <span>Kigali, Gasabo, Kimironko KK 365 St</span>
           <h4>Phone</h4>
