@@ -57,14 +57,14 @@ const Contact = () => (
       </div>
     </div>
     <footer>
-      <div className={styles.socialMedia}>
+      <div className={classes.socialMedia}>
         <i><FaFacebookF /></i>
         <i><FaTwitter /></i>
         <i><FaInstagram /></i>
       </div>
-      <div className={styles.scroll}>
-        <div className={styles.text}>Scroll</div>
-        <div className={styles.footLine} />
+      <div className={classes.scroll}>
+        <div className={classes.text}>Scroll</div>
+        <div className={classes.footLine} />
       </div>
     </footer>
   </div>
