@@ -1,0 +1,149 @@
+.mainContainer {
+  margin-top: -8px;
+  margin-left: -10px;
+  padding-bottom: 25px;
+}
+
+.contactContainer {
+  display: flex;
+  gap: 1rem;
+  padding-top: 4rem;
+}
+
+.contactText {
+  width: 43.75rem;
+  text-align: center;
+  margin-left: 50px;
+  padding: 0 20px;
+}
+
+.contactForm {
+  width: 30rem;
+  height: 470px;
+  text-align: center;
+  margin-right: 2.8rem;
+  background: rgba(21, 97, 109, 0.2);
+  box-shadow: 10px 4px 14px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  padding: 20px 0;
+  margin-left: 30px;
+}
+
+.contactForm h2 {
+  margin-bottom: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  color: #fff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+  gap: 5px;
+}
+
+input {
+  height: 2rem;
+  padding-left: 10px;
+  background: rgba(0, 21, 36, 0.4);
+  border-radius: 10px;
+  color: #fff;
+}
+
+textarea {
+  padding-left: 10px;
+  border-radius: 10px;
+  background: rgba(0, 21, 36, 0.4);
+  color: #fff;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+button {
+  margin-top: 10px;
+  padding: 5px 0;
+  margin-bottom: 1rem;
+  color: #fff;
+  background: #15616d;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  font-size: 17px;
+}
+
+.paragrap {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  line-height: 24px;
+  margin-top: -20px;
+  color: #fff;
+}
+
+.address h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  margin-top: -6px;
+  margin-bottom: -5px;
+}
+
+.address h4 {
+  margin-bottom: -5px;
+}
+
+.contactText h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  color: #fff;
+}
+
+.address span {
+  font-style: italic;
+  font-weight: 200;
+  font-size: 15px;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.socialMedia {
+  display: grid;
+  margin-left: 65px;
+  gap: 10px;
+}
+
+.footLine {
+  width: 30px;
+  border: 1px solid #ffecd1;
+  transform: rotate(90deg);
+  margin-left: 17px;
+}
+
+.scroll .text {
+  font-size: 16px;
+  letter-spacing: 0.2em;
+  transform: rotate(90deg);
+  margin-right: 35px;
+}
+
+.scroll {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  transform: rotate(-180deg);
+  gap: 38px;
+  margin-right: 18px;
+}
