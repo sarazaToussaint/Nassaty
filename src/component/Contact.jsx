@@ -52,7 +52,7 @@ const Contact = () => (
           <input type="text" id="" name="phoneUser" placeholder="Your phone" />
           <input type="text" id="" name="emailUser" placeholder="Your email" />
           <textarea id="nassatyContact" placeholder="Your message" name="msgUser" rows="8" cols="22" />
-          <button type="submit">Send Message</button>
+          <button className="btn" type="submit">Send Message</button>
         </form>
       </div>
     </div>
