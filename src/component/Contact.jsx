@@ -6,7 +6,13 @@ import styles from './Home.module.css';
 import classes from './Contact.module.css';
 
 const Contact = () => (
-  <div>
+  <div
+    style={{
+      backgroundImage: `url(${`${process.env.PUBLIC_URL}/assets/background.png`})`,
+      backgroundRepeat: 'no-repeat',
+    }}
+    className={classes.mainContainer}
+  >
     <nav>
       <h1>
         <img className={styles.logo} src={data.data.logo} alt={data.data.projectName} />
