@@ -2,6 +2,7 @@
   margin-top: -8px;
   margin-left: -10px;
   padding-bottom: 25px;
+  margin-bottom: -8px;
 }
 
 .contactContainer {
@@ -117,6 +118,7 @@ footer {
   display: flex;
   justify-content: space-between;
   margin-top: 60px;
+  align-items: center;
 }
 
 .socialMedia {
