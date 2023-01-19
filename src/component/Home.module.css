@@ -22,14 +22,14 @@
 .left,
 .right {
   width: 46px;
-  height: 142.07px;
+  height: 112.07px;
 }
 
 .homeBody {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 50px 45px 0 45px;
+  margin: 0 45px;
 }
 
 .leftLine {
@@ -62,13 +62,14 @@
   font-size: 100px;
   font-weight: 600;
   color: #ffecd1;
+  letter-spacing: 0.4em;
   text-shadow: 8px 7px 20px rgba(0, 0, 0, 0.25);
 }
 
 footer {
   display: flex;
   justify-content: space-between;
-  margin-top: 60px;
+  margin-top: 100px;
 }
 
 .socialMedia {
