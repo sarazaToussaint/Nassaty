@@ -5,6 +5,12 @@
   z-index: 1;
 }
 
+.bgImage2 {
+  width: 100%;
+  height: 600px;
+  margin-left: 17rem;
+}
+
 .logo {
   width: 41.42px;
   height: 52.33px;
