@@ -5,14 +5,20 @@ import data from './database/data.json';
 import styles from './Home.module.css';
 
 const Home = () => (
-  <div
-    style={{
-      backgroundImage: `url(${`${process.env.PUBLIC_URL}/assets/background.png`})`,
-      backgroundRepeat: 'no-repeat',
-      opacity: '8%',
-    }}
-    className={styles.homeContainer}
-  >
+  <div className={styles.homeContainer}>
+    <div
+      style={{
+        backgroundImage: `url(${`${process.env.PUBLIC_URL}/assets/background.png`})`,
+        opacity: '8%',
+        position: 'absolute',
+        width: '100%',
+        height: '100%',
+        bottom: '0',
+        left: '0',
+        right: '0',
+      }}
+      className={styles.bgImage}
+    />
     <nav>
       <h1>
         <img className={styles.logo} src={data.data.logo} alt={data.data.projectName} />
@@ -28,6 +34,19 @@ const Home = () => (
     </nav>
 
     <section className={styles.homeBody}>
+      <div
+        style={{
+          backgroundImage: `url(${`${process.env.PUBLIC_URL}/assets/background.png`})`,
+          opacity: '8%',
+          position: 'absolute',
+          width: '100%',
+          height: '100%',
+          bottom: '0',
+          left: '0',
+          right: '0',
+        }}
+        className={styles.bgImage2}
+      />
       <div className={styles.sideLeft}>
         <div className={styles.leftLine} />
         <div>
