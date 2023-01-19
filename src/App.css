@@ -8,6 +8,8 @@
 body {
   background: radial-gradient(103.91% 166.99% at -5.14% -15.43%, #15616d 0%, #001524 100%);
   color: #fff;
+
+  /* overflow-y: hidden; */
 }
 
 nav {
