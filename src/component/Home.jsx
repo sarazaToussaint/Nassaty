@@ -6,19 +6,6 @@ import styles from './Home.module.css';
 
 const Home = () => (
   <div className={styles.homeContainer}>
-    <div
-      style={{
-        backgroundImage: `url(${`${process.env.PUBLIC_URL}/assets/background.png`})`,
-        opacity: '8%',
-        position: 'absolute',
-        width: '100%',
-        height: '100%',
-        bottom: '0',
-        left: '0',
-        right: '0',
-      }}
-      className={styles.bgImage}
-    />
     <nav>
       <h1>
         <img className={styles.logo} src={data.data.logo} alt={data.data.projectName} />
@@ -39,8 +26,8 @@ const Home = () => (
           backgroundImage: `url(${`${process.env.PUBLIC_URL}/assets/cercleImg.png`})`,
           opacity: '3%',
           position: 'absolute',
-          width: '450px',
-          height: '450px',
+          width: '500px',
+          height: '500px',
         }}
         className={styles.bgImage2}
       />
@@ -62,6 +49,19 @@ const Home = () => (
         <div className={styles.rightLine} />
       </div>
     </section>
+    <div
+      style={{
+        backgroundImage: `url(${`${process.env.PUBLIC_URL}/assets/background.png`})`,
+        opacity: '8%',
+        position: 'absolute',
+        width: '100%',
+        height: '100%',
+        bottom: '0',
+        left: '0',
+        right: '0',
+      }}
+      className={styles.bgImage}
+    />
     <footer>
       <div className={styles.socialMedia}>
         <i><FaFacebookF /></i>
