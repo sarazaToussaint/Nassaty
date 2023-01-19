@@ -36,14 +36,11 @@ const Home = () => (
     <section className={styles.homeBody}>
       <div
         style={{
-          backgroundImage: `url(${`${process.env.PUBLIC_URL}/assets/background.png`})`,
-          opacity: '8%',
+          backgroundImage: `url(${`${process.env.PUBLIC_URL}/assets/cercleImg.png`})`,
+          opacity: '3%',
           position: 'absolute',
-          width: '100%',
-          height: '100%',
-          bottom: '0',
-          left: '0',
-          right: '0',
+          width: '650px',
+          height: '650px',
         }}
         className={styles.bgImage2}
       />
