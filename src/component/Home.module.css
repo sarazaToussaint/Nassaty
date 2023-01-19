@@ -33,7 +33,7 @@
 }
 
 .leftLine {
-  width: 100px;
+  width: 80px;
   border: 1px solid #ffecd1;
   transform: rotate(-90deg);
 }
@@ -41,12 +41,12 @@
 .sideLeft {
   display: grid;
   text-align: center;
-  gap: 55px;
+  gap: 45px;
   margin-left: -25px;
 }
 
 .rightLine {
-  width: 100px;
+  width: 80px;
   border: 1px solid #ffecd1;
   transform: rotate(-90deg);
 }
@@ -54,7 +54,7 @@
 .sideRight {
   display: grid;
   text-align: center;
-  gap: 55px;
+  gap: 45px;
   margin-right: -27px;
 }
 
@@ -62,7 +62,7 @@
   font-size: 100px;
   font-weight: 600;
   color: #ffecd1;
-  letter-spacing: 0.4em;
+  letter-spacing: 0.3em;
   text-shadow: 8px 7px 20px rgba(0, 0, 0, 0.25);
 }
 
