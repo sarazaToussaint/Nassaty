@@ -1,6 +1,8 @@
 .homeContainer {
   margin-top: -8px;
   margin-left: -10px;
+  position: relative;
+  z-index: 1;
 }
 
 .logo {
