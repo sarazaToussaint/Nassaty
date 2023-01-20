@@ -58,9 +58,15 @@ const Contact = () => (
     </div>
     <footer>
       <div className={classes.socialMedia}>
-        <i><FaFacebookF /></i>
-        <i><FaTwitter /></i>
-        <i><FaInstagram /></i>
+        <a href="https://www.linkedin.com/in/toussaintsaraza/" target="_blank" rel="noreferrer">
+          <FaFacebookF />
+        </a>
+        <a href="https://twitter.com/ToussaintSaraz1" target="_blank" rel="noreferrer">
+          <FaTwitter />
+        </a>
+        <a href="https://github.com/sarazaToussaint" target="_blank" rel="noreferrer">
+          <FaInstagram />
+        </a>
       </div>
       <div className={classes.scroll}>
         <div className={classes.text}>Scroll</div>
