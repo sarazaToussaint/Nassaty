@@ -75,10 +75,8 @@ const Home = () => (
         </a>
       </div>
       <div className={styles.scroll}>
-        <Link to="/Project">
-          <div className={styles.text}>Scroll</div>
-          <div className={styles.footLine} />
-        </Link>
+        <div className={styles.text}>Scroll</div>
+        <div className={styles.footLine} />
       </div>
     </footer>
   </div>
