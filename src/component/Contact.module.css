@@ -127,6 +127,10 @@ footer {
   gap: 10px;
 }
 
+.socialMedia a {
+  color: #fff;
+}
+
 .footLine {
   width: 30px;
   border: 1px solid #ffecd1;
