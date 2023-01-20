@@ -10,6 +10,7 @@ const Contact = () => (
     style={{
       backgroundImage: `url(${`${process.env.PUBLIC_URL}/assets/background.png`})`,
       backgroundRepeat: 'no-repeat',
+      opacity: '0.6',
     }}
     className={classes.mainContainer}
   >
