@@ -51,7 +51,7 @@ const Contact = () => (
         <form className={classes.contForm}>
           <input type="text" id="" name="nameOfUser" placeholder="Your name" />
           <input type="text" id="" name="phoneUser" placeholder="Your phone" />
-          <input type="text" id="" name="emailUser" placeholder="Your email" />
+          <input type="text" id="" name="emailOfUser" placeholder="Your email" />
           <textarea id="nassatyContact" placeholder="Your message" name="msgUser" rows="8" cols="22" />
           <button className="btn" type="submit">Send Message</button>
         </form>
