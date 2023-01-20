@@ -3,7 +3,6 @@ import { NavLink as Link } from 'react-router-dom';
 import { FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa';
 import data from './database/data.json';
 import styles from './Home.module.css';
-import Project from './Project';
 
 const Home = () => (
   <div className={styles.homeContainer}>
@@ -82,7 +81,6 @@ const Home = () => (
         </Link>
       </div>
     </footer>
-    <Project />
   </div>
 );
 
