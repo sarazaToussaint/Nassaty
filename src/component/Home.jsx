@@ -26,7 +26,7 @@ const Home = () => (
           backgroundImage: `url(${`${process.env.PUBLIC_URL}/assets/cercleImg.png`})`,
           opacity: '3%',
           position: 'absolute',
-          width: '650px',
+          width: '550px',
           height: '650px',
         }}
         className={styles.bgImage2}
