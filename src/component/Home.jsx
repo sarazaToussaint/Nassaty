@@ -27,7 +27,7 @@ const Home = () => (
           opacity: '3%',
           position: 'absolute',
           width: '550px',
-          height: '650px',
+          height: '550px',
         }}
         className={styles.bgImage2}
       />
