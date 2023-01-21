@@ -53,7 +53,7 @@ const Home = () => (
       style={{
         backgroundImage: `url(${`${process.env.PUBLIC_URL}/assets/background.png`})`,
         opacity: '8%',
-        // position: 'absolute',
+        position: 'absolute',
         width: '100%',
         height: '100%',
         bottom: '0',
