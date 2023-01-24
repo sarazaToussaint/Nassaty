@@ -72,6 +72,9 @@ const Home = () => (
         width: '100%',
         height: '100%',
         bottom: '0',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
       }}
       className={styles.bgImage}
     />
