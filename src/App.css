@@ -31,10 +31,13 @@ nav ul li a {
   color: #fff;
 }
 
+.nav-links {
+  z-index: 1;
+}
+
 nav ul {
   display: flex;
   gap: 20px;
-  z-index: 1;
 }
 
 .hamburger {
@@ -54,6 +57,7 @@ nav ul {
   /* top: 50%;
   transform: translateY(-50%); */
   display: none;
+  z-index: 1;
 }
 
 .hamburger:hover {
@@ -67,7 +71,7 @@ nav ul {
     display: block;
   }
 
-  nav ul {
+  .nav-links ul {
     display: none;
 
     /* navigation menu is positioned to start 60px from the top of the document (which is directly below the navbar) */
@@ -86,17 +90,17 @@ nav ul {
     border-top: 1px solid black;
   }
 
-  nav.expanded ul {
+  .nav-links.expanded ul {
     display: block;
   }
 
-  nav li {
+  .nav-links li {
     /* centers link text and strips off margin */
     text-align: center;
     margin: 0;
   }
 
-  nav ul li a {
+  .nav-links ul li a {
     color: black;
 
     /* increases the surface area of the anchor tag to span the full width of the menu */
@@ -105,7 +109,7 @@ nav ul {
     padding: 1.5rem 0;
   }
 
-  nav li:hover {
+  .nav-links li:hover {
     background-color: #eee;
   }
 }
