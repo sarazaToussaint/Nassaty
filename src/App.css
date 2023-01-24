@@ -86,6 +86,10 @@ nav ul {
     border-top: 1px solid black;
   }
 
+  nav.expanded ul {
+    display: block;
+  }
+
   nav li {
     /* centers link text and strips off margin */
     text-align: center;
