@@ -49,8 +49,6 @@ nav ul {
   background-color: rgb(31, 58, 75);
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
-
-  /* positions the icon to the right and center aligns it vertically */
   position: absolute;
   right: 25px;
 
