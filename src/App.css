@@ -73,14 +73,9 @@ nav ul {
 
   .nav-links ul {
     display: none;
-
-    /* navigation menu is positioned to start 60px from the top of the document (which is directly below the navbar) */
     position: absolute;
     top: 60px;
     left: 0;
-
-    /* stacks the li tags vertically */
-
     flex-direction: column;
 
     /* makes menu span full height and width */
