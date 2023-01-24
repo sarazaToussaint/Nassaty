@@ -49,9 +49,10 @@ nav ul {
 
   /* positions the icon to the right and center aligns it vertically */
   position: absolute;
-  top: 50%;
   right: 25px;
-  transform: translateY(-50%);
+
+  /* top: 50%;
+  transform: translateY(-50%); */
   display: none;
 }
 
