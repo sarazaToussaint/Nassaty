@@ -10,7 +10,7 @@ const Home = () => (
       <h1>
         <img className={styles.logo} src={data.data.logo} alt={data.data.projectName} />
       </h1>
-      <button type="button" className={styles.hamburger}>
+      <button type="button" className="hamburger">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="h-5 w-5"
