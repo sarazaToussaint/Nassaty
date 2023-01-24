@@ -34,17 +34,19 @@ const Home = () => {
           </svg>
         </button>
 
-        <ul className={
-          isNavExpanded ? 'nav expanded' : 'nav'
+        <div className={
+          isNavExpanded ? 'nav-links expanded' : 'nav-links'
         }
         >
-          <li>
-            <Link to="/Project">PROJECTS</Link>
-          </li>
-          <li>
-            <Link to="/Contact">CONTACT</Link>
-          </li>
-        </ul>
+          <ul>
+            <li>
+              <Link to="/Project">PROJECTS</Link>
+            </li>
+            <li>
+              <Link to="/Contact">CONTACT</Link>
+            </li>
+          </ul>
+        </div>
       </nav>
 
       <section className={styles.homeBody}>
