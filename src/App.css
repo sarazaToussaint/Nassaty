@@ -88,7 +88,6 @@ nav ul {
   }
 
   .nav-links li {
-    /* centers link text and strips off margin */
     text-align: center;
     margin: 0;
   }
