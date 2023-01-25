@@ -17,14 +17,16 @@ const Contact = () => (
       <h1>
         <img className={styles.logo} src={data.data.logo} alt={data.data.projectName} />
       </h1>
-      <ul>
-        <li>
-          <Link to="/">HOME</Link>
-        </li>
-        <li>
-          <Link to="/Project">PROJECT</Link>
-        </li>
-      </ul>
+      <div className="nav-links">
+        <ul>
+          <li>
+            <Link to="/">HOME</Link>
+          </li>
+          <li>
+            <Link to="/Project">PROJECT</Link>
+          </li>
+        </ul>
+      </div>
     </nav>
 
     <div className={classes.contactContainer}>
