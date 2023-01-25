@@ -22,7 +22,7 @@ const Project = () => (
     </nav>
 
     <di className="home-body">
-      <h1>PROJECT</h1>
+      <h1>PROJECTS</h1>
     </di>
   </div>
 );
