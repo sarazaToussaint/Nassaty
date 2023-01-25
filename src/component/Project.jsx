@@ -9,16 +9,14 @@ const Project = () => (
       <h1>
         <img className={styles.logo} src={data.data.logo} alt={data.data.projectName} />
       </h1>
-      <div className="nav-links">
-        <ul>
-          <li>
-            <Link to="/">HOME</Link>
-          </li>
-          <li>
-            <Link to="/Contact">CONTACT</Link>
-          </li>
-        </ul>
-      </div>
+      <ul>
+        <li>
+          <Link to="/">HOME</Link>
+        </li>
+        <li>
+          <Link to="/Contact">CONTACT</Link>
+        </li>
+      </ul>
     </nav>
 
     <di className="home-body">
