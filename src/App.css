@@ -72,9 +72,8 @@ nav ul {
     flex-direction: column;
     width: 100%;
     height: 100vh;
-    background-color: black;
+    background-color: #fff;
     border-top: 1px solid black;
-    opacity: 0.8;
   }
 
   .nav-links.expanded ul {
@@ -87,7 +86,7 @@ nav ul {
   }
 
   .nav-links ul li a {
-    color: #fff;
+    color: #000;
     width: 100%;
     padding: 1.5rem 0;
   }
