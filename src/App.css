@@ -72,8 +72,9 @@ nav ul {
     flex-direction: column;
     width: 100%;
     height: calc(100vh - 77px);
-    background-color: white;
+    background-color: black;
     border-top: 1px solid black;
+    opacity: 0.8;
   }
 
   .nav-links.expanded ul {
