@@ -101,3 +101,13 @@ footer {
   text-align: center;
   gap: 35px;
 }
+
+@media screen and (max-width: 768px) {
+  .nameBody {
+    font-size: 50px;
+    font-weight: 600;
+    color: #ffecd1;
+    letter-spacing: 0.1em;
+    text-shadow: 8px 7px 20px rgba(0, 0, 0, 0.25);
+  }
+}
