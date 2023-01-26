@@ -110,4 +110,10 @@ footer {
     letter-spacing: 0.1em;
     text-shadow: 8px 7px 20px rgba(0, 0, 0, 0.25);
   }
+
+  .bgImage2 {
+    height: 400px;
+    width: 100%;
+    margin-left: 5rem;
+  }
 }
