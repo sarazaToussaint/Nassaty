@@ -44,7 +44,7 @@ nav ul {
   width: 40px;
   padding: 0.5rem;
   border-radius: 50%;
-  background-color: rgb(5, 100, 159);
+  background-color: #15616d;
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
   position: absolute;
