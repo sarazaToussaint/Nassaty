@@ -74,6 +74,7 @@ nav ul {
     height: 100vh;
     background-color: #fff;
     border-top: 1px solid black;
+    padding-top: 10rem;
   }
 
   .nav-links.expanded ul {
