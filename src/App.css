@@ -93,6 +93,10 @@ nav ul {
     font-weight: 600;
   }
 
+  .nav-links ul > li {
+    margin-bottom: 2rem;
+  }
+
   .nav-links li:hover {
     background-color: #eee;
   }
