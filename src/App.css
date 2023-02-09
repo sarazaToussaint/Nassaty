@@ -72,7 +72,7 @@ nav ul {
     height: 100vh;
     background-color: #001524;
     border-top: 1px solid black;
-    padding-top: 15rem;
+    padding-top: 13rem;
     opacity: 0.9;
   }
 
@@ -94,7 +94,7 @@ nav ul {
   }
 
   .nav-links ul > li {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
   }
 
   .nav-links li:hover {
