@@ -104,7 +104,7 @@ footer {
 
 @media screen and (max-width: 768px) {
   .nameBody {
-    font-size: 50px;
+    font-size: 3rem;
     font-weight: 600;
     color: #ffecd1;
     letter-spacing: 0.1em;
