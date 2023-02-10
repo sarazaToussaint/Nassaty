@@ -157,5 +157,6 @@ footer {
   .contactContainer {
     display: flex;
     flex-direction: column;
+    gap: 2rem;
   }
 }
