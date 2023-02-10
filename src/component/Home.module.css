@@ -111,9 +111,9 @@ footer {
     text-shadow: 8px 7px 20px rgba(0, 0, 0, 0.25);
   }
 
-  /* .homeBody {
-    margin: 5rem 45px 5px 45px;
-  } */
+  .homeBody {
+    margin: 5px 45px 5px 45px;
+  }
 
   footer {
     display: flex;
