@@ -152,3 +152,10 @@ footer {
   gap: 38px;
   margin-right: 18px;
 }
+
+@media screen and (max-width: 768px) {
+  .contactContainer {
+    display: flex;
+    flex-direction: column;
+  }
+}
