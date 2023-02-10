@@ -51,13 +51,13 @@ const Home = () => {
 
       <section className={styles.homeBody}>
         <div
-          // style={{
-          //   backgroundImage: `url(${`${process.env.PUBLIC_URL}/assets/cercleImg.png`})`,
-          //   opacity: '3%',
-          //   position: 'absolute',
-          //   width: '650px',
-          //   height: '650px',
-          // }}
+          style={{
+            backgroundImage: `url(${`${process.env.PUBLIC_URL}/assets/cercleImg.png`})`,
+            opacity: '3%',
+            position: 'absolute',
+            width: '650px',
+            height: '650px',
+          }}
           className={styles.bgImage2}
         />
         <div className={styles.sideLeft}>
