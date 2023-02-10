@@ -111,10 +111,6 @@ footer {
     text-shadow: 8px 7px 20px rgba(0, 0, 0, 0.25);
   }
 
-  .homeBody {
-    margin: 5px 45px 45px 45px;
-  }
-
   footer {
     display: flex;
     justify-content: space-between;
