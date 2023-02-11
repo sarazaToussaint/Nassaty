@@ -40,14 +40,17 @@ const Contact = () => {
             />
           </svg>
         </button>
-        <ul>
-          <li>
-            <Link to="/">HOME</Link>
-          </li>
-          <li>
-            <Link to="/Project">PROJECT</Link>
-          </li>
-        </ul>
+
+        <div className={isNavExpanded ? 'nav-links expended' : 'nav-links'}>
+          <ul>
+            <li>
+              <Link to="/">HOME</Link>
+            </li>
+            <li>
+              <Link to="/Project">PROJECT</Link>
+            </li>
+          </ul>
+        </div>
       </nav>
 
       <div className={classes.contactContainer}>
