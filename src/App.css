@@ -54,7 +54,7 @@ nav ul {
 }
 
 .hamburger:hover {
-  background-color: #482943;
+  background-color: #000;
 }
 
 @media screen and (max-width: 768px) {
