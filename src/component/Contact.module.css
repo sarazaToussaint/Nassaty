@@ -175,4 +175,8 @@ footer {
     text-align: center;
     margin-right: 25px;
   }
+
+  .mainContainer {
+    bottom: 0;
+  }
 }
