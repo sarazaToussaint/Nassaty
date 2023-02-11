@@ -179,4 +179,11 @@ footer {
   .mainContainer {
     bottom: 0;
   }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+  }
 }
