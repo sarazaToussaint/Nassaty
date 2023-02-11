@@ -1,4 +1,4 @@
-import React from 'react';
+import { useState, React } from 'react';
 import { NavLink as Link } from 'react-router-dom';
 import { FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa';
 import data from './database/data.json';
