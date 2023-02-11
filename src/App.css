@@ -58,6 +58,10 @@ nav ul {
 }
 
 @media screen and (max-width: 768px) {
+  nav {
+    padding: 0 1.2rem;
+  }
+
   .hamburger {
     display: block;
   }
