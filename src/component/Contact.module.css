@@ -176,10 +176,6 @@ footer {
     margin-right: 25px;
   }
 
-  .mainContainer {
-    height: auto;
-  }
-
   footer {
     display: flex;
     justify-content: space-between;
