@@ -161,4 +161,12 @@ footer {
     align-items: center;
     gap: 2rem;
   }
+
+  .contactText {
+    width: 100%;
+    text-align: center;
+    padding: 0 20px;
+
+    /* margin-left: 50px; */
+  }
 }
