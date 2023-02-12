@@ -19,9 +19,9 @@ const Project = () => (
       </ul>
     </nav>
 
-    <di className="home-body">
+    <div className="home-body">
       <h1>In development</h1>
-    </di>
+    </div>
   </div>
 );
 
