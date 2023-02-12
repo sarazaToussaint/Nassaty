@@ -8,7 +8,7 @@
 .contactContainer {
   display: flex;
   gap: 1rem;
-  padding-top: 4rem;
+  padding-top: 2rem;
 }
 
 .contactText {
