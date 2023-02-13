@@ -58,7 +58,7 @@ const Home = () => {
             width: '650px',
             height: '650px',
           }}
-          className={styles.bgImage2}
+          className={styles.bgImage}
         />
         <div className={styles.sideLeft}>
           <div className={styles.leftLine} />
