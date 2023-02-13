@@ -50,7 +50,7 @@ nav ul {
   position: absolute;
   right: 25px;
   display: none;
-  z-index: 2;
+  z-index: 1;
 }
 
 .hamburger:hover {
