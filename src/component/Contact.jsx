@@ -15,7 +15,6 @@ const Contact = () => {
         width: '100%',
         height: '100%',
         bottom: '0',
-        opacity: '70%',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}
