@@ -101,7 +101,7 @@ const Contact = () => {
           </a>
         </div>
         <div className={classes.scroll}>
-          <div className={classes.text}>Scrolsl</div>
+          <div className={classes.text}>Scroll</div>
           <div className={classes.footLine} />
         </div>
       </footer>
