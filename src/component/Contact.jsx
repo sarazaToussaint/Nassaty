@@ -90,10 +90,10 @@ const Contact = () => {
       </div>
       <footer>
         <div className={classes.socialMedia}>
-          <a href="princ" target="_blank" rel="noreferrer">
+          <a href="prince" target="_blank" rel="noreferrer">
             <FaFacebookF />
           </a>
-          <a href="princ" target="_blank" rel="noreferrer">
+          <a href="prince" target="_blank" rel="noreferrer">
             <FaTwitter />
           </a>
           <a href="Prince" target="_blank" rel="noreferrer">
