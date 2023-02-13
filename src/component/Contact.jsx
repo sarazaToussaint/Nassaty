@@ -66,7 +66,7 @@ const Contact = () => {
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
             Maiores voluptatibus excepturi eaque doloribus dignissimos
             doloremque, odit impedit aut laudantium reiciendis veritatis
-            sit incidunt. Perspiciatis culpa cumque, ipsum eaque illo!
+            sit incidunt. Perspiciatis culpa cumque, ipsum eaque ill!
           </p>
           <div className={classes.address}>
             <h3>Address</h3>
