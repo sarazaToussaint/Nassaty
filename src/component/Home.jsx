@@ -71,7 +71,7 @@ const Home = () => {
           <h1>{data.data.projectName}</h1>
         </div>
         <div className={styles.sideRight}>
-          <div className={styles.rightLine} />
+          <div className={styles.rghtLine} />
           <div>
             <img className={styles.right} src={data.data.sideImg} alt={data.data.projectName} />
           </div>
