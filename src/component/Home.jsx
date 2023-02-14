@@ -90,7 +90,7 @@ const Home = () => {
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
         }}
-        className={styles.bgImage}
+        className={styles.bgIage}
       />
       <footer>
         <div className={styles.socialMedia}>
