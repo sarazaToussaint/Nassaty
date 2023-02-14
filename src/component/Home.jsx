@@ -67,7 +67,7 @@ const Home = () => {
           </div>
           <div className={styles.leftLine} />
         </div>
-        <div className={styles.nameBody}>
+        <div className={styles.nameBod}>
           <h1>{data.data.projectName}</h1>
         </div>
         <div className={styles.sideRight}>
