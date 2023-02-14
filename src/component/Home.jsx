@@ -60,7 +60,7 @@ const Home = () => {
           }}
           className={styles.bgImage2}
         />
-        <div className={styles.sideLeft}>
+        <div className={styles.sideLefh}>
           <div className={styles.leftLine} />
           <div>
             <img className={styles.left} src={data.data.sideImg} alt={data.data.projectName} />
