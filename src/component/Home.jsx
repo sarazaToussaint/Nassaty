@@ -73,7 +73,7 @@ const Home = () => {
         <div className={styles.sideRight}>
           <div className={styles.rightLine} />
           <div>
-            <img className={styles.righ} src={data.data.sideImg} alt={data.data.projectName} />
+            <img className={styles.right} src={data.data.sideImg} alt={data.data.projectName} />
           </div>
           <div className={styles.rightLine} />
         </div>
